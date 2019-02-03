@@ -24,8 +24,8 @@ const sketch = ({ canvas, context, width, height }) => {
     context.translate(margin, margin);
     context.strokeStyle = "black";
     context.beginPath();
-    for (i = 0; i < numRows; i += 1) {
-      for (j = 0; j < numCols; j += 1) {
+    for (let i = 0; i < numRows; i += 1) {
+      for (let j = 0; j < numCols; j += 1) {
         context.save();
         context.translate(j * widthCell, i * heightCell);
         let x1, y1, x2, y2;
