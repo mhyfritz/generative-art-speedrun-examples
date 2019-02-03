@@ -6,8 +6,6 @@
   </a>
 </p>
 
-#
-
 <p align="center">
   <img src="lines-tiled.png" width="75%" />
 </p>
