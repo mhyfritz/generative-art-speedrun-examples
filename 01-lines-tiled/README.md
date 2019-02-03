@@ -1,7 +1,7 @@
 # Tiled diagonal lines
 
 <p align="center">
-  <a href="#">
+  <a href="https://codesandbox.io/s/github/mhyfritz/generative-art-speedrun-examples/tree/master/01-lines-tiled">
     <img src="https://codesandbox.io/static/img/play-codesandbox.svg">
   </a>
 </p>
