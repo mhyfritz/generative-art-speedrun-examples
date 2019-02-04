@@ -20,3 +20,9 @@ Tim Holman's [Generative Art Speedrun talk](https://www.youtube.com/watch?v=4Se0
 <a href="03-lines-displaced/">
   <img src="03-lines-displaced/lines-displaced.png" width="25%">
 </a>
+
+### [Tiled curves](04-curves-tiled/)
+
+<a href="04-curves-tiled/">
+  <img src="04-curves-tiled/curves-tiled.png" width="25%">
+</a>
