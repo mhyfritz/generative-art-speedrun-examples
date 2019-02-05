@@ -6,13 +6,13 @@ const settings = {
   dimensions: [size, size]
 };
 
-const numRows = 50;
-const numCols = numRows;
+const numRows = 40;
+const numCols = 30;
 
 const margin = 10;
 const sizeInner = size - 2 * margin;
-const widthCell = sizeInner / numRows;
-const heightCell = sizeInner / numCols;
+const widthCell = sizeInner / numCols;
+const heightCell = sizeInner / numRows;
 
 function cap(x, max) {
   return x > max ? max : x;
@@ -32,15 +32,21 @@ const sketch = ({ canvas, context, width, height }) => {
       context.translate(0, i * heightCell);
       context.beginPath();
       context.moveTo(0, heightCell / 2);
+      let yLast = heightCell / 2;
       for (let j = 0; j < numCols; j += 1) {
-        context.lineTo(
-          widthCell,
+        const yNext =
           heightCell / 2 +
-            (Math.random() < 0.5 ? -1 : 1) *
-              // cap to value >1 to allow overlap / crossing of lines
-              cap((i * j * 4) / (numRows * numCols), 1.2) *
-              Math.floor(Math.random() * (heightCell / 2))
-        );
+          (Math.random() < 0.5 ? -1 : 1) *
+            // cap to value >1 to allow overlap / crossing of lines
+            cap((i * j * 4) / (numRows * numCols), 1.4) *
+            Math.floor(Math.random() * (heightCell * 0.5));
+
+        const cp = {
+          x: widthCell / 2,
+          y: yLast + (yNext - yLast) * 2
+        };
+        context.quadraticCurveTo(cp.x, cp.y, widthCell, yNext);
+        yLast = yNext;
         context.translate(widthCell, 0);
       }
       context.stroke();
