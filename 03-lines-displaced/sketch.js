@@ -11,8 +11,8 @@ const numCols = numRows;
 
 const margin = 10;
 const sizeInner = size - 2 * margin;
-const widthCell = sizeInner / numRows;
-const heightCell = sizeInner / numCols;
+const widthCell = sizeInner / numCols;
+const heightCell = sizeInner / numRows;
 
 function cap(x, max) {
   return x > max ? max : x;
