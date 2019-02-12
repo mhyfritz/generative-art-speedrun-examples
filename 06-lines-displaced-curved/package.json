@@ -1,0 +1,18 @@
+{
+  "name": "06-lines-displaced-curved",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Displaced (center) curved lines",
+  "main": "index.js",
+  "scripts": {
+    "start": "canvas-sketch sketch.js"
+  },
+  "keywords": [],
+  "author": "Markus Hsi-Yang Fritz",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-sketch": "^0.2.0",
+    "d3-scale": "^2.2.2",
+    "random": "^2.0.13"
+  }
+}
