@@ -30,6 +30,7 @@ const sketch = ({ canvas, context, width, height }) => {
     context.fillStyle = "black";
     context.fillRect(0, 0, sizeInner, sizeInner);
     context.strokeStyle = "white";
+    context.lineWidth = 2;
     const center = Math.floor(numCols / 2);
 
     const y = scaleLinear()
