@@ -38,3 +38,9 @@ Tim Holman's [Generative Art Speedrun talk](https://www.youtube.com/watch?v=4Se0
 <a href="06-lines-displaced-curved/">
   <img src="06-lines-displaced-curved/lines-displaced-curved-2.png" width="25%">
 </a>
+
+### [Curve repeated](07-curve-repeated/)
+
+<a href="07-curve-repeated/">
+  <img src="07-curve-repeated/curve-repeated.png" width="25%">
+</a>
