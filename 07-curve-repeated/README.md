@@ -1,4 +1,4 @@
-# Displaced curved lines
+# Repeated curve
 
 <p align="center">
   <a href="https://codesandbox.io/s/github/mhyfritz/generative-art-speedrun-examples/tree/master/07-curve-repeated">
