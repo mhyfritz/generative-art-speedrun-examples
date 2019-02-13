@@ -50,3 +50,9 @@ Tim Holman's [Generative Art Speedrun talk](https://www.youtube.com/watch?v=4Se0
 <a href="09-shapes-tiled/">
   <img src="09-shapes-tiled/shapes-tiled.png" width="25%">
 </a>
+
+### [Displaced squares ("Cubic disarray")](10-squares-displaced/)
+
+<a href="10-squares-displaced/">
+  <img src="10-squares-displaced/squares-displaced.png" width="25%">
+</a>
