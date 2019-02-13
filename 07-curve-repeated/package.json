@@ -1,8 +1,8 @@
 {
-  "name": "05-lines-displaced-curved",
+  "name": "07-curve-repeated",
   "version": "1.0.0",
   "private": true,
-  "description": "Displaced curved lines",
+  "description": "Repeated curve",
   "main": "index.js",
   "scripts": {
     "start": "canvas-sketch sketch.js"
