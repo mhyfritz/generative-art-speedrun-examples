@@ -44,3 +44,9 @@ Tim Holman's [Generative Art Speedrun talk](https://www.youtube.com/watch?v=4Se0
 <a href="07-curve-repeated/">
   <img src="07-curve-repeated/curve-repeated.png" width="25%">
 </a>
+
+### [Tiled shapes](09-shapes-tiled/)
+
+<a href="01-lines-tiled/">
+  <img src="09-shapes-tiled/shapes-tiled.png" width="25%">
+</a>
