@@ -28,8 +28,11 @@ const sketch = ({ canvas, context, width, height }) => {
       for (let j = 0; j < numCols; j += 1) {
         context.save();
         context.translate(j * widthCell, i * heightCell);
-        context.translate(widthCell / 2, heightCell / 2);
         const off = (i + 1) / numRows;
+        context.translate(
+          widthCell / 2 + randomSign(Math.random() * (widthCell / 8) * off),
+          heightCell / 2 + randomSign(Math.random() * (widthCell / 8) * off)
+        );
         context.rotate(randomSign(Math.random() * (Math.PI / 10)) * off);
         context.translate(-widthCell / 2, -heightCell / 2);
         context.rect(0, 0, widthCell, heightCell);
