@@ -56,3 +56,17 @@ Tim Holman's [Generative Art Speedrun talk](https://www.youtube.com/watch?v=4Se0
 <a href="10-squares-displaced/">
   <img src="10-squares-displaced/squares-displaced.png" width="25%">
 </a>
+
+<!--
+### [Displaced repeated circle](11-circle-displaced-repeated/)
+
+<a href="11-circle-displaced-repeated/">
+  <img src="11-circle-displaced-repeated/circle-displaced-repeated.png" width="25%">
+</a>
+-->
+
+### [Recursive squares](12-squares-recursive/)
+
+<a href="12-squares-recursive/">
+  <img src="12-squares-recursive/squares-recursive.png" width="25%">
+</a>
