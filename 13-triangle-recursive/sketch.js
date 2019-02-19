@@ -54,7 +54,7 @@ function draw(context, p1, p2, p3, level, maxLevel) {
     triangle(context, p1, midpoints[0], midpoints[1]);
     triangle(context, midpoints[0], p2, midpoints[2]);
     triangle(context, midpoints[1], midpoints[2], p3);
-    for (i = 0; i < repeat; i += 1) {
+    for (let i = 0; i < repeat; i += 1) {
       triangle(
         context,
         { x: p1.x + off2(), y: p1.y + off2() },
