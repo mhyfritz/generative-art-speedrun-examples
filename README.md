@@ -68,3 +68,9 @@ Tim Holman's [Generative Art Speedrun talk](https://www.youtube.com/watch?v=4Se0
 <a href="12-squares-recursive/">
   <img src="12-squares-recursive/squares-recursive.png" width="25%">
 </a>
+
+### [Recursive displaced repeated triangle](13-triangle-recursive/)
+
+<a href="13-triangle-recursive/">
+  <img src="13-triangle-recursive/triangle-recursive.png" width="25%">
+</a>

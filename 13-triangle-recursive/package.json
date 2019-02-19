@@ -1,0 +1,17 @@
+{
+  "name": "13-triangle-recursive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recursive displaced repeated triangle",
+  "main": "index.js",
+  "scripts": {
+    "start": "canvas-sketch sketch.js"
+  },
+  "keywords": [],
+  "author": "Markus Hsi-Yang Fritz",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-sketch": "^0.2.0",
+    "random": "^2.0.13"
+  }
+}
