@@ -1,0 +1,16 @@
+{
+  "name": "14-branches-circular",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Circular branches",
+  "main": "index.js",
+  "scripts": {
+    "start": "canvas-sketch sketch.js"
+  },
+  "keywords": [],
+  "author": "Markus Hsi-Yang Fritz",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-sketch": "^0.2.0"
+  }
+}

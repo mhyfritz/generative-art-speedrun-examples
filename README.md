@@ -74,3 +74,9 @@ Tim Holman's [Generative Art Speedrun talk](https://www.youtube.com/watch?v=4Se0
 <a href="13-triangle-recursive/">
   <img src="13-triangle-recursive/triangle-recursive.png" width="25%">
 </a>
+
+### [Circular branches](14-branches-circular/)
+
+<a href="14-branches-circular/">
+  <img src="14-branches-circular/branches-circular.png" width="25%">
+</a>
