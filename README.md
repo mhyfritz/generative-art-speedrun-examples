@@ -80,3 +80,9 @@ Tim Holman's [Generative Art Speedrun talk](https://www.youtube.com/watch?v=4Se0
 <a href="14-branches-circular/">
   <img src="14-branches-circular/branches-circular.png" width="25%">
 </a>
+
+### [Colored tiled shapes](15-shapes-tiled-colors/)
+
+<a href="15-shapes-tiled-colors/">
+  <img src="15-shapes-tiled-colors/shapes-tiled-colors.png" width="25%">
+</a>
