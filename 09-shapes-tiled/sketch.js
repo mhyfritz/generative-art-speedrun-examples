@@ -23,7 +23,7 @@ const sketch = ({ canvas, context, width, height }) => {
     context.save();
     context.translate(margin, margin);
     context.fillStyle = "black";
-    context.beginPath();
+    context.strokeStyle = "black";
     for (let i = 0; i < numRows; i += 1) {
       for (let j = 0; j < numCols; j += 1) {
         context.save();
@@ -33,8 +33,6 @@ const sketch = ({ canvas, context, width, height }) => {
         context.restore();
       }
     }
-    context.stroke();
-    context.closePath();
     context.restore();
   }
 
