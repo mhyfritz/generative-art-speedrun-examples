@@ -86,3 +86,9 @@ Tim Holman's [Generative Art Speedrun talk](https://www.youtube.com/watch?v=4Se0
 <a href="15-shapes-tiled-colors/">
   <img src="15-shapes-tiled-colors/shapes-tiled-colors.png" width="25%">
 </a>
+
+### [Colored braids](16-braids/)
+
+<a href="16-braids/">
+  <img src="16-braids/braids.png" width="25%">
+</a>
